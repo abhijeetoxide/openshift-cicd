@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
-    res.send('Welcome to CICD Demo for Openshift.');
+    res.send('Welcome to the CICD Demo for Openshift!');
 });
 
 const server = app.listen(port, () => {
